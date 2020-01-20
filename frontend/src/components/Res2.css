@@ -1,0 +1,151 @@
+.Image{
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.75);
+}
+
+.Imageroll img{
+    width: 114px;
+     height: 104px;
+     margin-right: 30px;
+     border-radius: 6px;
+     -webkit-box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.75);
+}
+
+.head{
+    display: flex;
+    flex-flow: row wrap;
+}
+.content{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Imageroll{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;   
+}
+
+.Index{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    background: white;
+    -webkit-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+}
+
+.lborder{
+    margin: 10px auto;
+    padding-left: 40px;
+    border-left: 2px solid #C4C4C4;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    background: white;
+    -webkit-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+}
+
+.address img{
+    width: 200px;
+    height: 200px;
+}
+
+.address p{
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.room{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.room button{
+    border-radius: 8px;
+    background-color: #30EB91;
+    color: white;
+    text-align: start;
+    height: 27px;
+
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: 900px auto;
+}
+
+.room div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:2px 5px;
+    background: white;
+    margin:0px 5px 15px 5px;
+    padding: 7px;
+    -webkit-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+
+}
+
+.room p{
+    margin-top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #878787;
+}
+
+.room h6{
+    margin-top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 10px -11px rgba(0,0,0,0.75);
+}
+.ui.progress
+{
+    margin: 10px;
+
+}
+
+body{
+    background: #f3f4f5
+  }

@@ -1,0 +1,49 @@
+.border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.margin{
+    margin-left: 50px;
+}
+
+.button{
+    margin-left: 10px;
+}
+
+.borderwidth{
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.side{
+    float: right;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;  
+    
+}
+
+.font{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.progress{
+    width: 80%;
+    margin-top: 7px;
+    margin-bottom: 1px;
+    
+}
+
+body{
+    background: #f3f4f5;
+}
+
+
