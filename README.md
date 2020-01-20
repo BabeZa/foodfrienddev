@@ -27,42 +27,22 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Food Friends เป็นบริการออนไลน์ในรูปแบบ Web-application สำหรับหาเพื่อนเพื่อไปรับประทานอาหารร่วมกัน หรือต้องการคนเพื่อให้สามารถใช้โปรโมชั่นของร้านได้ เช่นร้านที่มีโปร มา 4 จ่าย 3 โดยผู้ใช้ทำการเลือกร้านอาหารที่ต้องการจะเข้าไปใช้บริการ และทำการสร้างห้องพร้อมทั้งระบุเวลาเพื่อให้ผู้ใช้คนอื่นสามารถตัดสินใจในการเข้าร่วมรับประทานอาหารร่วมกับผู้ใช้ที่เป็นคนสร้างห้องและสมาชิกที่อยู่ในห้องได้ 	
+การทำงานของเว็บ Food Friends จะเป็นเครื่องมือที่ช่วยผู้ใช้ในการเลือกร้านค้าที่ต้องการจะเข้าไปใช้รับประทาน แสดงร้านอาหารที่อยู่ใกล้กับตัวผู้ใช้ พร้อมทั้งแนะนำเส้นทางไปยังร้านอาหาร รับความคิดเห็นและการให้คะแนนแก่ร้านค้าและผู้ใช้คนอื่นๆ โดยเว็บจะทำหน้าที่เป็นสื่อกลางระหว่างผู้ดูแล ผู้ใช้ และร้านอาหาร เพื่อให้ผู้ใช้สามารถหาเพื่อนในการรับประทานอาหารได้สะดวกสบายมากยิ่งขึ้นพร้อมทั้งให้ข้อมูลและโปรโมชั่นของร้านอาหารที่ต้องการจะเข้าไปรับประทาน
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Front End (React) 
+	homepage 80%
+	Login/Register/Logout 85%
+	Restaurantpage 
+		Main Page 80%
+		Room 0%
+Back End (MongoDB + NodeJS) 
+	homepage 0%
+	Login/Register/Logout 70%
+	Restaurantpage 
+		Main Page 0%
+		Room 0%
